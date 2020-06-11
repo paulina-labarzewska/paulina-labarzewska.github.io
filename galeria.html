@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang=pl>
+<head>
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="arkuszp.css">
+<title>Galeria zdjęć</title>
+<link rel="shortcut icon" href="foto/logo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family:Constantia; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color:#0066cc;
+  font-size:140%;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family:Georgia;
+  font-weight:bolder;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+<div class="header"><h1><a href=index.html><img src=foto/logo.png style="width:80px" alt="Logo"></a>Galeria zdjęć</h1></div>
+ <div class="scrollmenu">
+ <a href=index.html>Strona główna</a>
+ <a href=polozenie.html>Położenie miasta</a>
+  <a href=piosenka_film.html>Media</a>
+  </div><br>
+  <a href=https://www.visitlondon.com/things-to-do/sightseeing/london-attraction/top-ten-attractions target=_blank>Więcej miejsc do zwiedzenia</a>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 9</div>
+  <img src="foto/platform.jpg" style="width:100%" alt="Peron 9 i 3/4">
+  <div class="text">Peron 9 i 3/4 nawiązujący do znanej serii książek</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="foto/camden.jpg" style="width:100%" alt="Dzielnica Camden">
+  <div class="text">Camden</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 9</div>
+  <img src="foto/kew.jpg" style="width:100%" alt="Królewskie Ogrody Botaniczne w Kew">
+  <div class="text">Królewskie Ogrody Botaniczne w Kew</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 9</div>
+  <img src="foto/brixton.jpg" style="width:100%"alt="Brixton Market">
+  <div class="text">Brixton Market</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 9</div>
+  <img src="foto/bfi.jpg" style="width:100%" alt="Brytyjski Instytut Filmowy">
+  <div class="text">Brytyjski Instytut Filmowy</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">6 / 9</div alt="">
+  <img src="foto/carnaby.jpg" style="width:100%" alt="Soho w Londynie">
+  <div class="text">Soho w Londynie<br></div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">7 / 9</div>
+  <img src="foto/daunt-books.jpg" style="width:100%" alt="Ogromna księgarnia Daunt Books">
+  <div class="text">Ogromna księgarnia Daunt Books</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">8 / 9</div>
+  <img src="foto/chinatown.jpg" style="width:100%" alt="Chinatown">
+  <div class="text">Chinatown</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">9 / 9</div>
+  <img src="foto/transport.jpg" style="width:100%" alt="Londyńskie Muzeum Transportu">
+  <div class="text">Londyńskie Muzeum Transportu</div>
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
