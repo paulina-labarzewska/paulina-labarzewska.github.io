@@ -1,0 +1,26 @@
+div.scrollmenu {
+  background-color:#333;
+  overflow:auto;
+  white-space: nowrap;
+  text-align: center;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration:none;
+}
+
+div.scrollmenu a:hover {
+background-color: #777;}
+.header
+{
+	text-align:center;
+	margin:auto;
+	height:10%;
+	width:100%;
+	background-color:#f8bbd0;
+}
+body{margin-top:1px;margin-left:1px;margin-right:1px;background-image:url(foto/londyn.jpg);}

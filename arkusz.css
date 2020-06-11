@@ -1,0 +1,92 @@
+div.scrollmenu {
+  background-color:#323232;
+  overflow:auto;
+  white-space: nowrap;
+  text-align: center;
+font-family:Constantia;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 1%;
+  text-decoration:none;
+}
+
+div.scrollmenu a:hover {
+background-color: #f8bbd0;}
+.parallax {
+  background-image: url(foto/londyn.jpg);
+  height:90%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align:center;
+}
+.menu1
+{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 1%;
+  text-decoration:none;  
+   background-color:#323232;
+  overflow:auto;
+  white-space: nowrap;
+  width:40%;
+  margin:auto;
+  position:relative;top:5%;left:20%;transform:translate(-50%,500%);
+  font-size:100%;
+  font-family:Constantia;
+}
+.header
+{
+	text-align:center;
+	margin:auto;
+	height:10%;
+	width:100%;
+	background-color:#f8bbd0;
+	font-family:Constantia;
+	font-size:100%;
+}
+body{margin-top:1px;margin-left:1px;margin-right:1px;background-image:url(foto/londyn.jpg);}
+div.scrollmenu1 {
+  overflow:auto;
+  white-space: nowrap;
+  text-align: center;
+  position:fixed;
+  font-family:Constantia;
+}
+div.scrollmenu1 a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding:1%;
+  text-decoration:none; 
+  position:fixed;
+   background-color:#323232;
+}
+div.scrollmenu1 a:hover {
+background-color: #f8bbd0;  position:fixed;}
+.menu2
+{
+	height:60%;background-color:#b0bec5;font-size:20px;text-align:center;margin:auto;font-family:Georgia;margin:auto;padding-top:10%;
+}
+table{border-style:outset; border-color:#666666; border-width:5pt; height:80%; width:100%; margin:auto;
+ text-align:center; color:#323232; font-family:Georgia; font-size:large; background-color:#666666;}
+tr{height:10%; width:100%; background-color:#b0bec5;}
+ul{list-style-type:disc; list-style-position: inside;font-family:Georgia;line-height:130%;}
+.footer
+{
+width:100%;
+height:5%;
+background-color:#323232;
+color:white;
+clear:both;
+text-align:center;
+font-family:Constantia;
+font-size:15pt;
+}
+img{padding-top:0.5%;}

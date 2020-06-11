@@ -1,0 +1,64 @@
+div.scrollmenu {
+  background-color:#333;
+  overflow:auto;
+  white-space: nowrap;
+  text-align: center;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration:none;
+}
+
+div.scrollmenu a:hover {
+background-color: #777;
+}
+.header
+{
+	text-align:center;
+	margin:auto;
+	height:10%;
+	width:100%;
+	background-color:#f8bbd0;
+	font-family:Constantia;
+	font-size:100%;
+}
+body{margin-top:1px;margin-left:1px;margin-right:1px;background-image:url(foto/londyn.jpg);}
+.menu1
+{
+width:65%;
+height:100%;
+background-color:#b0bec5;
+float:left;
+text-align:center;
+font-size:100%;
+font-family:Georgia;
+margin:auto;
+}
+.menu3
+{
+width:50%;
+height:100%;
+background-color:#b0bec5;
+float:left;
+text-align:left;
+font-size:90%;
+position:relative;top:50%;left:50%;transform:translate(-50%,-50%);
+font-family:Georgia;
+}
+.menu2
+{
+width:35%;
+height:100%;
+background-color:#b0bec5;
+float:right;
+text-align:center;
+font-size:100%;
+font-family:Georgia;
+margin:auto;
+}
+ol{list-style-type:decimal; list-style-position: inside;}
+img{padding-top:0.5%;}
